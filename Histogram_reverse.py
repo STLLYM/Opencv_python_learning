@@ -35,3 +35,8 @@ src = cv.imread("opencv-4.4.0/data/lena.jpg")
 back_projection_demo()
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+
+# 测试功能
+# 直方图方向投影
+# 代码编写时间 2020.8.15
