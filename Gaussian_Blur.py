@@ -39,3 +39,7 @@ dst = cv.GaussianBlur(src, (5, 5), 15)
 cv.imshow("Gaussian_Blur", dst)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 高斯模糊
+# 代码编写时间 2020.8.14
