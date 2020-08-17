@@ -33,3 +33,7 @@ cv.imshow("the first image", src)
 custom_blur_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 模糊操作
+# 代码编写时间 2020.8.14
