@@ -60,8 +60,6 @@ def contrast_braghtness_demo(image, c, b):
 src1 = cv.imread("opencv-4.4.0/data/LinuxLogo.jpg")
 src2 = cv.imread("opencv-4.4.0/data/WindowsLogo.jpg")
 cv.namedWindow("image1", cv.WINDOW_AUTOSIZE)
-print(src1.shape)
-print(src2.shape)
 cv.imshow("image1", src1)
 cv.imshow("image2", src2)
 contrast_braghtness_demo(src2, 1.2, 100)
@@ -73,3 +71,7 @@ contrast_braghtness_demo(src2, 1.2, 100)
 # logic_demo(src1, src2)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 像素运算
+# 代码编写时间 2020.8.14
