@@ -43,3 +43,7 @@ dst = cv.erode(src, kernel)
 cv.imshow("result", dst)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 膨胀和腐蚀
+# 代码编写时间 2020.8.17
