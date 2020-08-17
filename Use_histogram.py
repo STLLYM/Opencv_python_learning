@@ -58,3 +58,8 @@ hist_compare(image1, image2)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 未调通
+# 图像直方图应用
+# 代码编写时间 2020.8.15
