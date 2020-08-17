@@ -39,3 +39,7 @@ cv.imshow("the first image", src)
 line_detect_possible_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 功能测试
+# 直线检测
+# 代码编写时间 2020.8.16
