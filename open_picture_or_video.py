@@ -3,6 +3,7 @@
 import cv2 as cv
 import numpy as np
 
+
 def video_demo():
     capture = cv.VideoCapture(0)
     while(True):
@@ -30,3 +31,8 @@ get_image_info(src)
 video_demo()
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+
+# 测试功能
+# 图片和视频的加载与保存
+# 代码编写时间 2020.8.13
