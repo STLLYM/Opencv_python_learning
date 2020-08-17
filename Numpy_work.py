@@ -41,9 +41,6 @@ def inverse(image):
     cv.imshow("inverse demo", dst)
 
 
-
-
-
 src = cv.imread("C:\\Users\\15098\\Desktop\\t1.jpg")   # blue, green, red
 cv.namedWindow("the first image", cv.WINDOW_AUTOSIZE)
 cv.imshow("the first image", src)
@@ -52,10 +49,12 @@ t1 = cv.getTickCount()
 inverse(src)
 # access_pixels(src)
 t2 = cv.getTickCount()
-time = (t2-t1)/cv.getTickFrequency();
+time = (t2-t1)/cv.getTickFrequency()
 print("time : %s ms" % (time*1000))
 cv.waitKey(0)
-
-
 cv.destroyAllWindows()
 
+
+# 测试功能
+# Numpy数组操作
+# 代码编写时间 2020.8.13
