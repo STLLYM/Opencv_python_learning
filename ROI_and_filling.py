@@ -42,3 +42,7 @@ print(src.shape)
 fill_binary()
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# ROI与泛洪填充
+# 代码编写时间 2020.8.14
