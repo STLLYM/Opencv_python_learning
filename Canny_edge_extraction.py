@@ -5,7 +5,9 @@ import numpy as np
 
 
 def edge_demo(image):
+    # 高斯模糊滤波
     blurred = cv.GaussianBlur(image, (3, 3), 0)
+    # 转换灰度图
     gray = cv.cvtColor(blurred, cv.COLOR_BGR2GRAY)
     xgrad = cv.Sobel(gray, cv.CV_16SC1, 1, 0)
     ygrad = cv.Sobel(gray, cv.CV_16SC1, 0, 1)
@@ -17,7 +19,6 @@ def edge_demo(image):
     cv.imshow("color edge", dst)
 
 
-
 src = cv.imread("C:\\Users\\15098\\Desktop\\t1.jpg")
 cv.namedWindow("the first image", cv.WINDOW_AUTOSIZE)
 cv.imshow("the first image", src)
@@ -25,3 +26,7 @@ edge_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
 
+
+# 功能测试
+# Canny边缘提取
+# 代码编写时间 2020.8.16
