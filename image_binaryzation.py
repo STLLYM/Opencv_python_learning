@@ -33,10 +33,15 @@ def custom_threshold(image):
     cv.imshow("binary", binary)
 
 
-src = cv.imread("data/sudoku.png")
+src = cv.imread("opencv-4.4.0/data/sudoku.png")
 cv.namedWindow("the first image", cv.WINDOW_AUTOSIZE)
 cv.imshow("the first image", src)
 custom_threshold(src)
 cv.waitKey(0)
 
 cv.destroyAllWindows()
+
+# 测试功能
+# 均值阈值  未调成功
+# 图像二值化
+# 代码编写时间 2020.8.15
