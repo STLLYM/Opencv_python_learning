@@ -41,3 +41,7 @@ cv.imshow("the first image", src)
 measure_object(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 对象测量
+# 代码编写时间 2020.8.17
