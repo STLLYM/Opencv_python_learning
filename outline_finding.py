@@ -34,3 +34,8 @@ cv.imshow("the first image", src)
 contous_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 功能测试
+# 轮廓发现
+# 代码编写时间 2020.8.17
+
