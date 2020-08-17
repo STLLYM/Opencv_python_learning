@@ -23,10 +23,14 @@ def template_demo():
             tl = max_loc
         br = (tl[0]+tw, tl[1]+th)
         cv.rectangle(target, tl, br, (0, 0, 255), 2)
-        # cv.imshow("match"+np.str(md), target)
-        cv.imshow("match" + np.str(md), result)
+        cv.imshow("match"+np.str(md), target)
+        # cv.imshow("match" + np.str(md), result)
 
 
 template_demo()
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 模板匹配
+# 代码编写时间 2020.8.15
