@@ -25,3 +25,7 @@ cv.imshow("the first image", src)
 image_hist(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 图像直方图
+# 代码编写时间 2020.8.15
