@@ -32,3 +32,7 @@ cv.imshow("the first image", src)
 lapalian_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 测试功能
+# 图象梯度
+# 代码编写时间 2020.8.16
