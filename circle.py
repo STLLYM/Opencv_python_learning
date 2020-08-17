@@ -21,3 +21,7 @@ cv.imshow("the first image", src)
 detect_circle_demo(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# 功能测试
+# 圆检测
+# 代码编写时间 2020.8.16
