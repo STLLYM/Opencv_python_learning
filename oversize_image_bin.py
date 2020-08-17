@@ -30,3 +30,8 @@ src = cv.imread("opencv-4.4.0/data/test123.png")
 big_image_binary(src)
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+
+# 测试功能
+# 超大图像二值化
+# 代码编写时间 2020.8.15
